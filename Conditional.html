@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+
+    <script>
+
+    let response = prompt("Please enter your first number.");
+            console.log(response);
+    let operator = prompt("Please enter your operator. Ex (*, +, -, or /)")
+            console.log(operator)
+    let response1 = prompt("Please eneter your second number.")
+            console.log(response1)
+
+
+                if ((isNaN(response))) {
+                    alert("You have to use numbers only")
+                }
+                if ((isNaN(response1))) {
+                    alert("You have to use numbers only")
+                }
+
+                    if (operator == "*" ) {
+
+                        var answer1 = response * response1;
+                        alert(answer1)
+            
+                    }
+
+                    if (operator == "+") {
+
+                        response = parseInt (response);
+                        response1 = parseInt (response1);
+                        var answer2 = response + response1;
+                        alert(answer2)
+        
+                    }
+
+                    if (operator == "-") {
+                        response = parseInt (response);
+                        response1 = parseInt (response1);
+                        var answer3 = response - response1;
+                        alert(answer3)
+                    }
+
+                    if (operator == "/") {
+                        response = parseInt (response);
+                        response1 = parseInt (response1);
+                        var answer4 = response / response1;
+                        alert(answer4)
+                    }
+
+                    else {
+                        alert("You have to use an operator. Ex (*, +, -, or /)")
+                    }
+
+
+    </script>
+
+
+
+
+</body>
+</html>
